@@ -1,0 +1,47 @@
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+    }
+
+.head   {
+    text-align: center;
+} 
+.wrap{    
+    height: auto;
+    width: auto;
+    margin: auto;          
+}
+.wrap_form {    
+    height: auto;
+    width: 250px;
+    text-align: left;
+    border: 1px solid black;    
+    margin: auto;    
+}
+.input{
+    display: block;
+    height: auto;
+    width: auto;
+    margin: 5px 0px 5px 2px ;
+}
+
+.result {
+    display: block;
+    min-height: 80px;
+    width: 250px; 
+    position: relative; 
+    text-align: left;
+    border: 1px solid black;    
+    margin:5px auto;    
+}
+.result_button{
+    height: 20px;
+    width: 60px;
+    position: absolute; 
+    bottom: 0px;
+    left: 0; 
+    right: 0;
+    margin: 5px auto;
+   
+}
